@@ -1,0 +1,85 @@
+:root {
+    --background-color: #000000;
+    --header-footer: #1B1B1B;
+    --background: #353839;
+    --text-color: #F2F3F4;
+    --font-size-h1: 3.5rem;
+    --font-size-h2: 2rem;
+    --font-size-h3: 1.5rem;
+    --font-size-h4: 1rem;
+    --font-size-h5: 0.8rem;
+    --font-size-p: 0.8rem;
+    --border-blue: #271958;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--border-blue);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.nav-logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.nav-link_brand {
+
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-link {
+
+}
+
+.main-content {
+    flex-grow: 1;
+
+}
+
+.intro-container {
+    background-image: url(./images/webapp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: ;
+    position: relative;
+}
+
+footer {
+    background-color: #F2F3F4;
+    padding: 24px;
+}
