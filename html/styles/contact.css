@@ -65,6 +65,40 @@ body {
     gap: 24px;
 }
 
+.main-content {
+    flex-grow: 1;
+    padding: 24px;
+}
+
+.info-section {
+    color: var(--text-color);
+    background-color: #0d7911;
+    padding: 36px;
+}
+
+.info-section h3 {
+    font-size: var(--font-size-h3);
+}
+
+.info-text 
+
+.button
+
+.contact-section {
+    color: var(--text-color);
+    background-color: var(--text-hover);
+    padding: 36px;
+}
+
+.contact-section h3 {
+    font-size: var(--font-size-h3);
+    text-align: center;
+}
+
+.contact-form
+
+
+
 
 
 
