@@ -3,7 +3,9 @@
     --header-footer: #1B1B1B;
     --background: #353839;
     --text-color: #F2F3F4;
-    --font-size-h1: 3.5rem;
+    --text-hover: #0f5416;
+    --text-light: #0d7911;
+    --font-size-h1: 3rem;
     --font-size-h2: 2rem;
     --font-size-h3: 1.5rem;
     --font-size-h4: 1rem;
@@ -24,11 +26,10 @@ html {
 }
 
 body {
-    background-color: var(--border-blue);
+    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
 }
 
 .header {
@@ -37,49 +38,73 @@ body {
     padding: 24px;
 }
 
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
 .nav-logo img {
     height: 50px;
     width: 50px;
 }
 
-.left-nav {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-
+.nav-link {
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .nav-link_brand {
-
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .nav-bar {
     display: flex;
     align-items: center;
-    gap: 16px;
-}
-
-.nav-link {
-
+    gap: 24px;
 }
 
 .main-content {
     flex-grow: 1;
-
 }
 
 .intro-container {
-    background-image: url(./images/webapp.jpg);
+    background-image: url(./images/Hacker-Cyber-Security-Internet-Sectricity\ \(1\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     padding-top: 50%;
-    padding-bottom: ;
-    position: relative;
 }
 
-footer {
-    background-color: #F2F3F4;
-    padding: 24px;
+.intro-container h1 {
+    font-size: var(--font-size-h1);
+}
+.intro-container h2 {
+    font-size: var(--font-size-h2);
+}
+
+.intro-text {
+    color: var(--text-color);
+    text-align: left;
+    position: relative;
+    top: -70px;
+}
+
+.tenace {
+    color: #0e9513;
+}
+
+.footer {
+    padding: 1px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.footer img {
+    height: 50px;
+    width: 50px;
 }
