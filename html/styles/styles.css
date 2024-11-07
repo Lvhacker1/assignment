@@ -75,8 +75,12 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    padding-top: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
 }
+
+
 
 .intro-container h1 {
     font-size: var(--font-size-h1);
@@ -101,10 +105,32 @@ body {
     display: flex;
     text-align: center;
     align-items: center;
+    background-color: white;
 }
 
 
 .footer img {
     height: 50px;
     width: 50px;
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+
+    .intro-container {
+       height: 100vh;
+    }
+
+    .intro-container h1 {
+        font-size: 5rem;
+        margin-left: 24px;
+    }
+
+    .intro-container h2 {
+        font-size: 3.5rem;
+        margin-left: 24px;
+    }
+    
 }
